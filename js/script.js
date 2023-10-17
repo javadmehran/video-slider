@@ -1,4 +1,3 @@
-function ToggleMenu(){
-    const toggleMenu=document.querySelector('.menu')
-    toggleMenu.classList.toggle('active')
+function videoUrl(link){
+    document.querySelector('#slider').src="video/"+link
 }
